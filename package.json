@@ -15,7 +15,8 @@
   "scripts": {
     "serve": "gulp serve",
     "test": "gulp test",
-    "lint": "gulp lint"
+    "lint": "gulp lint",
+    "build": "gulp build --modules=modules.json"
   },
   "repository": {
     "type": "git",
@@ -37,7 +38,7 @@
     "header bidding",
     "prebid"
   ],
-  "globalVarName": "pbjs",
+  "globalVarName": "nbpbjs",
   "defineGlobal": true,
   "author": "The prebid.js contributors",
   "license": "Apache-2.0",

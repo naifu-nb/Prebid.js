@@ -532,6 +532,7 @@ export const processPBSRequest = hook('sync', function (s2sBidRequest, bidReques
             logError('error parsing response: ', result ? result.status : 'not valid JSON');
             onResponse(false, requestedBidders);
           } else {
+            events.emit(EVENTS.RAW_RESPONSE_RECEIVED, result);
             onResponse(true, requestedBidders, result);
           }
         },

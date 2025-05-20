@@ -51,6 +51,7 @@ export const EVENTS = {
   BEFORE_PBS_HTTP: 'beforePBSHttp',
   BROWSI_INIT: 'browsiInit',
   BROWSI_DATA: 'browsiData',
+  RAW_RESPONSE_RECEIVED: "rawResponseReceived",
 };
 
 export const AD_RENDER_FAILED_REASON = {
